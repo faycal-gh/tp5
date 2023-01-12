@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #105469;
+  font-family: 'Open Sans', sans-serif;
+}
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: auto auto;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  background-color: #012B39;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
+#myTable {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      transform: translate(-50%, -50%);
+      display: block;
+      width: fit-content;
+      max-height: 400px;
+      overflow-y: scroll;
+}
